@@ -60,21 +60,21 @@
 
 ### Hyperparameters
 
-'''yaml
-learning_rate: 2e-5
-per_device_train_batch_size: 8
-per_device_eval_batch_size: 8
-num_train_epochs: 2
-weight_decay: 0.01
-max_length: 256
-eval_strategy: epoch
-save_strategy: epoch
+yaml
+**learning_rate: 2e-5
+**per_device_train_batch_size: 8
+**per_device_eval_batch_size: 8
+**num_train_epochs: 2
+**weight_decay: 0.01
+**max_length: 256
+**eval_strategy: epoch
+**save_strategy: epoch
 
 ### 📋 Workflow
 
-Load IMDb Dataset
-Tokenize reviews (max_length=256)
-Load Pretrained BERT with classification head
-Fine-tune using Trainer API
-Evaluate on test set
-Perform inference on custom text
+**Load IMDb Dataset
+**Tokenize reviews (max_length=256)
+**Load Pretrained BERT with classification head
+**Fine-tune using Trainer API
+**Evaluate on test set
+**Perform inference on custom text
